@@ -15,12 +15,13 @@ function Categorias() {
 
 
   return (
-    <ul className="md:flex md:flex-wrap md:p-3 md:px-6 text-xl *:mx-4  text-white *:cursor-pointer capitalize list-disc md:bg-DarkBlue md:ml-5">
+    <ul className="md:flex md:flex-wrap md:p-3 md:px-6 *:mx-4 *:cursor-pointer capitalize md:bg-DarkBlue md:ml-5">
       {
         categorias.genres?.map((categoria) => (
-          <li key={categoria.id}>
-            <Link to={`/categorias/${categoria.name}/${categoria.id}`}>
-              {categoria.name}
+          <li key={categoria.id} className="flex items-center space-x-2 text-sm text-green-400 hover:text-blue-900 ">
+            <ion-icon name="square"></ion-icon>
+            <Link to={`/categorias/${categoria.name}/${categoria.id}`} className="text-xl text-white hover:text-blue-500">
+            {categoria.name}
             </Link>
           </li>
         ))
