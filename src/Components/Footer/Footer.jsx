@@ -11,11 +11,11 @@ function Footer() {
       <div className="mt-5">
         <p className="flex felx-col">
           API Proporcionada por :
-          <a className="text-LightGreen underline" href="https://developer.themoviedb.org/reference/intro/authentication"> The Movie DB</a>
+          <a className="text-LightGreen underline" href="https://developer.themoviedb.org/reference/intro/authentication">The Movie DB</a>
         </p>
         <p>
           Diseño Hecho Por :
-          <span className="text-LightGreen"> Diego Ramírez de Diego</span>
+          <a href="https://github.com/Diego2Drm/apiMovies" className="text-LightGreen underline">Diego Ramírez de Diego</a>
         </p>
       </div>
 
@@ -28,7 +28,7 @@ function Footer() {
 
         <a href="https://www.frontendmentor.io/profile/Diego2Drm" className="flex items-center gap-x-5 text-LightGreen underline">
           <img className="w-5" src={FrontendMentor} alt="frontend" />
-          Fronend-Mentor
+          Frontend-Mentor
         </a>
       </div>
 
