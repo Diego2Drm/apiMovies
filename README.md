@@ -1,8 +1,36 @@
-# React + Vite
+# Api Movie
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[Sitio Web]()
 
-Currently, two official plugins are available:
+## ¡BIENVENIDO! 👋
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Gracias por tomarte el tiempo para ver este repositorio.
+En este sitio web se muestran películas en diferentes secciones:
+
+-Categorías.
+-Tendencias.
+-Mejor valorado.
+-Detalles sobre la pelicula.
+
+Además de que, puedes buacar tus películas favoritas.
+
+### **HERRAMIENTAS QUE SE UTILIZO**
+-React Js + Vite
+-Tailwind CSS
+
+**npm**
+```
+-React-Router-Dom
+ npm install react-router-dom@6
+
+-React-Lazy-Load-Image-Component
+ npm i react-lazy-load-image-component
+
+```
+
+![](./src/assets/screenshot.jpeg)
+
+
+## API
+
+Esta api Fue proporcionada por [TMDB](https://developer.themoviedb.org/reference/intro/authentication)
