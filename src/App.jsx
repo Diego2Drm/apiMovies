@@ -10,7 +10,7 @@ import { NotFound } from './Components/NotFound/NotFound'
 function App() {
   return (
     <section className='w-full h-screen'>
-      <HashRouter >
+      <HashRouter future={{ v7_relativeSplatPath: true, v7_startTransition: true}}>
 
         <Routes>
           <Route path="/" element={<Home />}/>
