@@ -23,13 +23,13 @@ function Detalles() {
     fetch(`https://api.themoviedb.org/3/movie/${titleId}?api_key=639ffac191a35e90345c4e5e6f416515`)
       .then(response => response.json())
       .then(data => setDetalles(data))
-  }, [detalles]);
+  }, [titleId]);
 
   useEffect(() => {
     fetch(`https://api.themoviedb.org/3/movie/${titleId}/recommendations?api_key=639ffac191a35e90345c4e5e6f416515`)
       .then(response => response.json())
       .then(data => setRecomendados(data))
-  }, [recomendados]);
+  }, [titleId]);
 
 
   return (
