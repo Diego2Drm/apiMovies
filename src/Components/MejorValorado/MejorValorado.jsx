@@ -14,7 +14,6 @@ function MejorValorado() {
       .then(data => setProximo(data))
   }, [])
 
-  console.log(proximo);
   return (
     <section className="w-full mt-10 pl-4 mb-[3.5rem]">
       <h3 className="text-2xl text-DarkBlue font-semibold italic mb-5">Mejor valorado</h3>
